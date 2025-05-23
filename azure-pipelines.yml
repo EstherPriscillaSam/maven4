@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
   name: Default
   demands:
-    - agent.name -equals LAPTOP-P6MF1LBB
+   - agent.name -equals LAPTOP-P6MF1LBB
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
