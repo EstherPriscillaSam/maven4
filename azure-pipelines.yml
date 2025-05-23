@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
-  #name: Default
-  #demands:
-   #- agent.name -equals LAPTOP-P6MF1LBB
+  name: Default
+  demands:
+   - agent.name -equals LAPTOP-P6MF1LBB
   vmImage: ubuntu-latest
 
 steps:
